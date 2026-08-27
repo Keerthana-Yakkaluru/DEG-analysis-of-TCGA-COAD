@@ -1,0 +1,19 @@
+# R session / history files
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Raw downloaded GDC data (large, regenerable via scripts/)
+data/GDCdata/
+data/*.rda
+data/*.RData
+*.tar.gz
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Temporary / intermediate files
+*.log
+*.tmp
